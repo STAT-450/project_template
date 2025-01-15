@@ -1,9 +1,24 @@
-# Data Folder
+# Data (`data/`)
 
-It is of utmost importance that you **do not** push any of this data to GitHub or any other public repository, as doing so could result in serious privacy violations and compromise sensitive information. The data should be stored in this folder locally only. 
+**IMPORTANT: Do not push any data to public repositories like GitHub.** This folder is for local data storage only. Pushing data could lead to serious privacy violations and compromise sensitive information.
 
-Here are some essential guidelines:
+This directory is dedicated to storing the data used for this project. Please adhere to the following guidelines to ensure data integrity and security:
 
-- Save the raw data file you received from the client in this folder, adding a clear identifier like `data_raw` or `data_original` to distinguish it. 
-- **NEVER** alter the original data file. Keeping this untouched original is vital, ensuring you always have a backup in case of unexpected issues. 
-- You can then create scripts in the `src` folder to process the data, and if you decide to save the processed data, please use a different filename like `data_processed` within this `data` folder.
+**Key Guidelines:**
+
+- **Raw Data Storage:**
+  - Save the original, raw data file received (e.g., from the client) directly in this folder.
+  - Use a clear and descriptive identifier in the filename to indicate it's the original, untouched data (e.g., `data_raw.csv`, `original_data.xlsx`).
+- **Never Modify Original Data:**
+  - **DO NOT** alter the original raw data file in any way.
+  - Maintaining an untouched copy is crucial for having a reliable backup and ensuring the integrity of the source data.
+- **Processing and Derived Data:**
+  - Create scripts within the `src/` folder to process the data.
+  - If you save processed or derived data, store it within this `data/` folder as well.
+  - **Crucially, use different filenames for processed data** to distinguish it from the original raw data (e.g., `data_processed.csv`, `cleaned_data.rds`).
+
+**In summary:**
+
+This folder is your local workspace for data. Keep the original data pristine and clearly separate from any processed versions. **Always ensure this folder is excluded from version control (see the project's** `**.gitignore**` **file).**
+
+If you have any questions about data handling procedures, please consult your mentor.
