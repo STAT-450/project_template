@@ -7,12 +7,7 @@ This directory is intended for storing more detailed documentation about the pro
 Here are some suggestions for what you might include in this `docs/` folder, depending on the complexity and requirements of your project:
 
 *   **`user_guide.md` or `user_manual.md`**:  A guide for users on how to use the final output or application produced by the project. This is relevant if the project results in something that others will interact with.
-*   **`technical_documentation.md`**:  Detailed information about the design, architecture, and implementation of the project. This could include:
-    *   Explanations of key algorithms or methods used.
-    *   Diagrams illustrating the system architecture or data flow.
-    *   Detailed descriptions of specific modules or components.
 *   **`data_dictionary.md`**:  If the project involves significant data handling, a data dictionary can be very useful. This would describe the different datasets used, their sources, and the meaning of each variable or field.
-*   **`design_decisions.md`**:  A document outlining the key design choices made during the project and the rationale behind them. This can be helpful for understanding the project's evolution.
 *   **`project_report` or `final_report`**:  Depending on the course requirements, this could be where students place their final project report.
 
 ## How to Contribute to the Documentation
