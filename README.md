@@ -1,6 +1,6 @@
 # STAT 450 - Project Template
 
-This repository serves as a template for students in the [Course Name] course for their [Project Name] project. Please use this template as a starting point for your project.
+This repository serves as a template for students in the STAT 450 course for their projects. Please use this template as a starting point for your project.
 
 ## Getting Started
 
